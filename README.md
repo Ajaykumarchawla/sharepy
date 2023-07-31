@@ -96,8 +96,8 @@ r = requests.get("https://example.sharepoint.com", auth=auth)
 
 Available authentication classes are:
 
-- `SharepointOnline` - For normal SharePoint Online sites
-- `SharepointADFS` - For ADFS-enabled sites
+- `SharePointOnline` - For normal SharePoint Online sites
+- `SharePointADFS` - For ADFS-enabled sites
 
 ### Custom authentication URL
 
